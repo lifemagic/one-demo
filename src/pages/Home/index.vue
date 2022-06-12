@@ -6,7 +6,7 @@
             <h1>a11</h1>
             <h1>a11</h1>
             <h1>a11</h1>
-            <h1>a11</h1>
+            <h1>{{ home }}</h1>
         </div>
     </div>
 </template>
@@ -15,7 +15,7 @@ export default {
     name: "Home",
     data() {
         return {
-
+            home: "1234"
         }
     },
 
